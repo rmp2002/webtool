@@ -30,6 +30,7 @@ $a=$matchjs[2];
 $len=$matchjs[3];
 $dic=$matchjs[4];
 $dic_arr=explode('|',$dic);
+//加密后的字典
 var_dump($dic_arr);
 for($i=0;$i<=count($dic_arr);$i++){
     $c=num($i);
